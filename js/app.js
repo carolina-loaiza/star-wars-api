@@ -1,3 +1,3 @@
 $( document ).ready(function() {
-    shipInfo.init
+    shipInfo.init();
 });
