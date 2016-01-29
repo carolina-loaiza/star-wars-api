@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    background: #151515;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 1% 0;
+    padding: 2% 0;
+    background: url('../img/logo.png') no-repeat center center;
+    background-size: contain;
+}
+
+h2 {
+    color: #edec51;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+header {
+    background-color: #272727;
+    margin: 2% 0;
+    padding: 4% 2%;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+p {
+    margin: 10px 0 0 0;
+}
+
+button:active,
+button:focus,
+button.btn:focus,
+button.btn:active {
+    outline: none;
+}
+
+.ships-container li {
+    list-style: none;
+}
+
+.ships-item {
+    border: 2px solid #151515;
+    border-radius: 6px;
+    padding: 1% 0 16% 1%;
+    text-align: left;
+    background: #c2c2c2;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    transition: background-size 0.5s ease;
+    background-size: 120%;
+    background-position: center;
+}
+
+.ships-item:hover {
+    background-size: 180%;
+}
+
+.ship-info {
+    position: relative;
+    max-width: 1600px;
+    margin: 10% auto;
+}
+
+.picture-ship {
+    width: 100%;
+}
+
+.overlay-ship-info {
+    width: 100%;
+    position: absolute;
+    background: #000;
+    top: 0;
+    display: none;
+}
+
+.overlay-ship-info button{
+    float: right;
+    color: #edec51;
+    background: none;
+    font-size: 30px;
+    margin: 15px 40px;
+}
+
+.ship-info span {
+    font-size: 1.2rem;
+    color: #edec51;
+    text-transform: uppercase;
+}
+
+.info-details {
+    position: absolute;
+    top: 0;
+    margin: 3% 3% 0;
+    color: #fff;
+    font-size: 2.2rem;
+    max-width: 280px;
+    background: #151515;
+    padding: 1%;
+    border-radius: 6%;
+}
+
+.ship-9 {
+    background-image: url('../img/ships/ship-9.jpg');
+}
+
+.ship-10 {
+    background-image: url('../img/ships/ship-10.jpg');
+}
+
+.ship-21 {
+    background-image: url('../img/ships/ship-21.jpg');
+}
+
+.ship-17 {
+    background-image: url('../img/ships/ship-17.jpg');
+}
+
+.ship-23 {
+    background-image: url('../img/ships/ship-23.jpg');
+}
+
+.ship-13 {
+    background-image: url('../img/ships/ship-13.jpg');
+}
