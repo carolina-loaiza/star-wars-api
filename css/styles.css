@@ -111,6 +111,10 @@ button.btn:active {
     border-radius: 6%;
 }
 
+.ship-3{
+    background-image: url('../img/ships/ship-3.jpg');
+}
+
 .ship-9 {
     background-image: url('../img/ships/ship-9.jpg');
 }
@@ -135,14 +139,42 @@ button.btn:active {
     background-image: url('../img/ships/ship-13.jpg');
 }
 
+.ship-17 {
+    background-image: url('../img/ships/ship-17.jpg');
+}
+
 .ship-29 {
     background-image: url('../img/ships/ship-29.jpg');
+}
+
+.ship-32 {
+    background-image: url('../img/ships/ship-32.jpg');
 }
 
 .ship-48 {
     background-image: url('../img/ships/ship-48.jpg');
 }
 
+.ship-49 {
+    background-image: url('../img/ships/ship-49.jpg');
+}
+
 .ship-52 {
     background-image: url('../img/ships/ship-52.jpg');
+}
+
+.ship-58 {
+    background-image: url('../img/ships/ship-58.jpg');
+}
+
+.ship-59 {
+    background-image: url('../img/ships/ship-59.jpg');
+}
+
+.ship-61 {
+    background-image: url('../img/ships/ship-61.jpg');
+}
+
+.ship-77 {
+    background-image: url('../img/ships/ship-77.jpg');
 }
