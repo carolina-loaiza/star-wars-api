@@ -1,5 +1,5 @@
 var gridShips = (function() {
-  var containerGrid = $('#prueba');
+  var containerGrid = $('#ships-container');
 
   function printGallery(data) {
     var cont = 0;
@@ -9,7 +9,7 @@ var gridShips = (function() {
     var shipName;
     var grid = '<div class="row">';
 
-    for (i = 0; i < 6; i++) { 
+    for (i = 0; i < 9; i++) { 
       cont ++;
       d = data.results[i].url;
       dShip = d.match(/\d+/)[0];
@@ -19,6 +19,7 @@ var gridShips = (function() {
 
       if(cont%3 == 0){
         containerGrid.append(grid);
+        grid = '<div class="row">';
       }
       //console.log(data.results[i].name)
       //console.log(d.match(/\d+/)[0])
@@ -26,8 +27,6 @@ var gridShips = (function() {
     };
 
     grid += '</div>';
-
-    //containerGrid.append(grid);
   }
 
   return {
