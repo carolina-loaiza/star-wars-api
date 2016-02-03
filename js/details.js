@@ -8,10 +8,6 @@ var showDetails = (function() {
   var close = $('#close-container');
   var shipInfo = $('#ship-info');
 
-  function hide() {
-    shipContainer.fadeOut();
-  }
-
   function shipChosen(data){
     nameShip.html(data.name);
     modelShip.html(data.model);
@@ -23,7 +19,11 @@ var showDetails = (function() {
     close.on('click', hide)
   }
 
+  function hide() {
+    shipContainer.fadeOut();
+  }
+
   return {
     shipChosen : shipChosen
   }
-})()
+})();

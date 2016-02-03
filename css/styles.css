@@ -111,8 +111,25 @@ button.btn:active {
     border-radius: 6%;
 }
 
-.ship-3{
-    background-image: url('../img/ships/ship-3.jpg');
+.bnt-container {
+    text-align: center;
+    margin-bottom: 32px;
+    background: #151515;
+}
+
+.btn-show-more {
+    background: #151515;
+    border: none;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-top: -20px;
+    position: relative;
+    border: 5px solid #151515;
+    border-radius: 7px;
+}
+
+.ship-5{
+    background-image: url('../img/ships/ship-5.jpg');
 }
 
 .ship-9 {
@@ -123,48 +140,36 @@ button.btn:active {
     background-image: url('../img/ships/ship-10.jpg');
 }
 
-.ship-21 {
-    background-image: url('../img/ships/ship-21.jpg');
+.ship-11 {
+    background-image: url('../img/ships/ship-11.jpg');
 }
 
-.ship-17 {
-    background-image: url('../img/ships/ship-17.jpg');
-}
-
-.ship-23 {
-    background-image: url('../img/ships/ship-23.jpg');
+.ship-12 {
+    background-image: url('../img/ships/ship-12.jpg');
 }
 
 .ship-13 {
     background-image: url('../img/ships/ship-13.jpg');
 }
 
-.ship-17 {
-    background-image: url('../img/ships/ship-17.jpg');
+.ship-15 {
+    background-image: url('../img/ships/ship-15.jpg');
 }
 
-.ship-29 {
-    background-image: url('../img/ships/ship-29.jpg');
+.ship-21 {
+    background-image: url('../img/ships/ship-21.jpg');
 }
 
-.ship-32 {
-    background-image: url('../img/ships/ship-32.jpg');
-}
-
-.ship-48 {
-    background-image: url('../img/ships/ship-48.jpg');
+.ship-22 {
+    background-image: url('../img/ships/ship-22.jpg');
 }
 
 .ship-49 {
     background-image: url('../img/ships/ship-49.jpg');
 }
 
-.ship-52 {
-    background-image: url('../img/ships/ship-52.jpg');
-}
-
-.ship-58 {
-    background-image: url('../img/ships/ship-58.jpg');
+.ship-3 {
+    background-image: url('../img/ships/ship-3.jpg');
 }
 
 .ship-59 {
@@ -177,4 +182,20 @@ button.btn:active {
 
 .ship-77 {
     background-image: url('../img/ships/ship-77.jpg');
+}
+
+.ship-17 {
+    background-image: url('../img/ships/ship-17.jpg');
+}
+
+.ship-32 {
+    background-image: url('../img/ships/ship-32.jpg');
+}
+
+.ship-52 {
+    background-image: url('../img/ships/ship-52.jpg');
+}
+
+.ship-58 {
+    background-image: url('../img/ships/ship-58.jpg');
 }

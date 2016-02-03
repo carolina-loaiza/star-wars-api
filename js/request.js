@@ -1,16 +1,15 @@
 var shipInfo = (function() {
-  var item = $('.ships-item');
+  var btn = $('#show-more-btn');
 
   function init() {
-    api.getData(gridShips.printGallery, '?page=3');
-    item.on( "click", getID );
+    api.getData(gridShips.printGallery, '?page=1');
   }
 
-  function getID() {
-    var id = $(this).data('type').match(/\d+/)[0];
-    api.getData(showDetails.shipChosen, id);
-    localStorage.setItem('id', id);
+  function showMore() {
+    api.getData(gridShips.printGallery, '?page=3');
   }
+
+  btn.on( "click", showMore );
 
   return {
     init : init
