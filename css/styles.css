@@ -119,13 +119,14 @@ button.btn:active {
 
 .btn-show-more {
     background: #151515;
-    border: none;
     color: #fff;
     font-size: 2.2rem;
     margin-top: -20px;
     position: relative;
-    border: 5px solid #151515;
-    border-radius: 7px;
+}
+
+.btn:hover {
+    color: #edec51;
 }
 
 .ship-5{

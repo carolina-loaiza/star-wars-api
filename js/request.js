@@ -7,6 +7,7 @@ var shipInfo = (function() {
 
   function showMore() {
     api.getData(gridShips.printGallery, '?page=3');
+    btn.hide();
   }
 
   btn.on( "click", showMore );
